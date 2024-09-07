@@ -2,7 +2,7 @@ import serial
 from datetime import datetime
 import csv
 
-serial_port = 'COM3'   # For WIN
+serial_port = 'COM6'   # For WIN
 # serial_port='/dev/ttyUSB1'  # For Linux
 
 baud_rate = 115200  
