@@ -3,8 +3,8 @@ import csv
 import time
 from datetime import datetime
 
-serial_port = 'COM6'   # For WIN
-# serial_port='/dev/ttyUSB1'  # For Linux
+# serial_port = 'COM6'   # For WIN
+serial_port='/dev/ttyUSB0'  # For Linux
 
 baud_rate = 115200  
 csv_file = "serial_log.csv"
